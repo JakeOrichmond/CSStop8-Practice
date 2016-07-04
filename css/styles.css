@@ -1,0 +1,57 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+*{
+	font-family: Roboto;
+}
+
+h2 {
+	background-color: #FFCE99;
+	color: #C7743F;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 10px;
+}
+
+body {
+	margin: 30px 30px;
+}
+
+p {
+	text-align: center;
+	color: #5FA76D;
+}
+
+img {
+	height: 200px;
+	width: 200px;
+	margin: 5px 20px 20px 5px;
+	border-style: solid;
+	border-color: blue;
+	border-width: medium;
+}
+
+#desc {
+	font-weight: bold;
+	color: #000!important;
+	padding-left: 5px;
+	text-align: left;
+}
+
+.box {
+	margin: 20px;
+	float: left;	
+}
+
+h3 {
+	text-align: center;	
+	font-size: 18px;
+	margin-right: 15px;
+	color: navy;
+}
+
